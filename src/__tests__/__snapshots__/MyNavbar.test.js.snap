@@ -18,12 +18,83 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "brand": "Chris Malloy",
+      "children": Array [
+        <NavItem
+          href="/"
+>
+          Projects
+</NavItem>,
+        <NavItem
+          href="/"
+>
+          Skills
+</NavItem>,
+        <NavItem
+          href="/"
+>
+          Bio
+</NavItem>,
+        <NavItem
+          href="/"
+>
+          Contact
+</NavItem>,
+      ],
       "href": "/",
       "options": Object {},
       "right": true,
     },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Projects",
+          "href": "/",
+        },
+        "ref": null,
+        "rendered": "Projects",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Skills",
+          "href": "/",
+        },
+        "ref": null,
+        "rendered": "Skills",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Bio",
+          "href": "/",
+        },
+        "ref": null,
+        "rendered": "Bio",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Contact",
+          "href": "/",
+        },
+        "ref": null,
+        "rendered": "Contact",
+        "type": [Function],
+      },
+    ],
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -33,12 +104,83 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "brand": "Chris Malloy",
+        "children": Array [
+          <NavItem
+            href="/"
+>
+            Projects
+</NavItem>,
+          <NavItem
+            href="/"
+>
+            Skills
+</NavItem>,
+          <NavItem
+            href="/"
+>
+            Bio
+</NavItem>,
+          <NavItem
+            href="/"
+>
+            Contact
+</NavItem>,
+        ],
         "href": "/",
         "options": Object {},
         "right": true,
       },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Projects",
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": "Projects",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Skills",
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": "Skills",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Bio",
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": "Bio",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Contact",
+            "href": "/",
+          },
+          "ref": null,
+          "rendered": "Contact",
+          "type": [Function],
+        },
+      ],
       "type": [Function],
     },
   ],
