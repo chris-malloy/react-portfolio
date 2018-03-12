@@ -20,7 +20,7 @@ ShallowWrapper {
       "brand": "Chris Malloy",
       "children": Array [
         <NavItem
-          href="/"
+          href="/#Projects"
 >
           Projects
 </NavItem>,
@@ -39,6 +39,11 @@ ShallowWrapper {
 >
           Contact
 </NavItem>,
+        <NavItem
+          href="images/chris-malloy-resume-main.pdf"
+>
+          Resume
+</NavItem>,
       ],
       "className": "blue",
       "href": "/",
@@ -53,7 +58,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": "Projects",
-          "href": "/",
+          "href": "/#Projects",
         },
         "ref": null,
         "rendered": "Projects",
@@ -95,6 +100,18 @@ ShallowWrapper {
         "rendered": "Contact",
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Resume",
+          "href": "images/chris-malloy-resume-main.pdf",
+        },
+        "ref": null,
+        "rendered": "Resume",
+        "type": [Function],
+      },
     ],
     "type": [Function],
   },
@@ -107,7 +124,7 @@ ShallowWrapper {
         "brand": "Chris Malloy",
         "children": Array [
           <NavItem
-            href="/"
+            href="/#Projects"
 >
             Projects
 </NavItem>,
@@ -126,6 +143,11 @@ ShallowWrapper {
 >
             Contact
 </NavItem>,
+          <NavItem
+            href="images/chris-malloy-resume-main.pdf"
+>
+            Resume
+</NavItem>,
         ],
         "className": "blue",
         "href": "/",
@@ -140,7 +162,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": "Projects",
-            "href": "/",
+            "href": "/#Projects",
           },
           "ref": null,
           "rendered": "Projects",
@@ -180,6 +202,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Contact",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Resume",
+            "href": "images/chris-malloy-resume-main.pdf",
+          },
+          "ref": null,
+          "rendered": "Resume",
           "type": [Function],
         },
       ],

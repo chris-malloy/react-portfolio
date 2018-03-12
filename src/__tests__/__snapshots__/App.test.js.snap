@@ -20,6 +20,11 @@ ShallowWrapper {
       "children": Array [
         <MyNavbar />,
         <Header />,
+        <h5
+          className="center"
+>
+          Projects
+</h5>,
         <Project
           description="A React Native App"
           href="https://github.com/caseyezimmerman/TrackR"
@@ -28,6 +33,7 @@ ShallowWrapper {
           title="Trackr"
 />,
       ],
+      "className": "blue",
     },
     "ref": null,
     "rendered": Array [
@@ -48,6 +54,18 @@ ShallowWrapper {
         "ref": null,
         "rendered": null,
         "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Projects",
+          "className": "center",
+        },
+        "ref": null,
+        "rendered": "Projects",
+        "type": "h5",
       },
       Object {
         "instance": null,
@@ -76,6 +94,11 @@ ShallowWrapper {
         "children": Array [
           <MyNavbar />,
           <Header />,
+          <h5
+            className="center"
+>
+            Projects
+</h5>,
           <Project
             description="A React Native App"
             href="https://github.com/caseyezimmerman/TrackR"
@@ -84,6 +107,7 @@ ShallowWrapper {
             title="Trackr"
 />,
         ],
+        "className": "blue",
       },
       "ref": null,
       "rendered": Array [
@@ -104,6 +128,18 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Projects",
+            "className": "center",
+          },
+          "ref": null,
+          "rendered": "Projects",
+          "type": "h5",
         },
         Object {
           "instance": null,

@@ -20,6 +20,7 @@ ShallowWrapper {
       "children": Array [
         <img
           alt="profile"
+          className="profile-picture"
           src="images/profile-picture-headshot.jpeg"
 />,
         <h5
@@ -38,6 +39,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "profile",
+          "className": "profile-picture",
           "src": "images/profile-picture-headshot.jpeg",
         },
         "ref": null,
@@ -68,6 +70,7 @@ ShallowWrapper {
         "children": Array [
           <img
             alt="profile"
+            className="profile-picture"
             src="images/profile-picture-headshot.jpeg"
 />,
           <h5
@@ -86,6 +89,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "profile",
+            "className": "profile-picture",
             "src": "images/profile-picture-headshot.jpeg",
           },
           "ref": null,

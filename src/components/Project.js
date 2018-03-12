@@ -5,11 +5,14 @@ import { Card, CardTitle } from 'react-materialize';
 const Project = (props) => {
 
   return (
-   <Card className='small'
-     header={<CardTitle image={props.image || 'image.png'}>{props.title}</CardTitle>}
-     actions={[<a href={props.href}>{props.link}</a>]}>
-     {props.description}
-  </Card>
+    <div >
+      <Card className='small black-text '
+        header={<CardTitle image={props.image || 'image.png'}>{props.title}</CardTitle>}
+        key={1}
+        actions={[<a key={props.title} href={props.href}>{props.link}</a>]}>
+        {props.description}
+      </Card>
+    </div>
  )
 };
 
