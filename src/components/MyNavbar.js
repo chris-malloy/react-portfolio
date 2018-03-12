@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Navbar, NavItem, SideNav, SideNavItem } from 'react-materialize';
+import { Navbar, NavItem } from 'react-materialize';
 
 const MyNavbar = () => {
   return (
-    <Navbar brand='Chris Malloy' right>
+    <Navbar brand='Chris Malloy' className="blue" right>
       <NavItem href='/'>Projects</NavItem>
       <NavItem href='/'>Skills</NavItem>
       <NavItem href='/'>Bio</NavItem>

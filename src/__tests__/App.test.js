@@ -11,8 +11,14 @@ describe('App', () => {
   it('renders correctly', () => {
     expect(app).toMatchSnapshot();
   });
+  describe('my components', () => {
 
-  it('contains a MyNavbar component', () => {
-    expect(app.find('MyNavbar').exists()).toBe(true);
-  })
-})
+    it('contains a `MyNavbar` component', () => {
+      expect(app.find('MyNavbar').exists()).toBe(true);
+    });
+
+    it('contains a `Header` component', () => {
+      expect(app.find('Header').exists()).toBe(true);
+    });
+  });
+});

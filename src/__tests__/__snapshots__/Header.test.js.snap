@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders correctly 1`] = `
+exports[`Header renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <Header />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,29 +18,40 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <MyNavbar />,
-        <Header />,
+        <img
+          alt="profile"
+          src="profile-picture-headshot.jpeg"
+/>,
+        <h5>
+          Imagination meets Technicality
+</h5>,
       ],
+      "className": "center blue",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "alt": "profile",
+          "src": "profile-picture-headshot.jpeg",
+        },
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": "img",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "children": "Imagination meets Technicality",
+        },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": "Imagination meets Technicality",
+        "type": "h5",
       },
     ],
     "type": "div",
@@ -52,29 +63,40 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <MyNavbar />,
-          <Header />,
+          <img
+            alt="profile"
+            src="profile-picture-headshot.jpeg"
+/>,
+          <h5>
+            Imagination meets Technicality
+</h5>,
         ],
+        "className": "center blue",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "alt": "profile",
+            "src": "profile-picture-headshot.jpeg",
+          },
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": "img",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "children": "Imagination meets Technicality",
+          },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": "Imagination meets Technicality",
+          "type": "h5",
         },
       ],
       "type": "div",
