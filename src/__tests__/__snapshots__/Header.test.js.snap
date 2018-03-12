@@ -20,9 +20,11 @@ ShallowWrapper {
       "children": Array [
         <img
           alt="profile"
-          src="profile-picture-headshot.jpeg"
+          src="images/profile-picture-headshot.jpeg"
 />,
-        <h5>
+        <h5
+          className="white-text"
+>
           Imagination meets Technicality
 </h5>,
       ],
@@ -36,7 +38,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "alt": "profile",
-          "src": "profile-picture-headshot.jpeg",
+          "src": "images/profile-picture-headshot.jpeg",
         },
         "ref": null,
         "rendered": null,
@@ -48,6 +50,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Imagination meets Technicality",
+          "className": "white-text",
         },
         "ref": null,
         "rendered": "Imagination meets Technicality",
@@ -65,9 +68,11 @@ ShallowWrapper {
         "children": Array [
           <img
             alt="profile"
-            src="profile-picture-headshot.jpeg"
+            src="images/profile-picture-headshot.jpeg"
 />,
-          <h5>
+          <h5
+            className="white-text"
+>
             Imagination meets Technicality
 </h5>,
         ],
@@ -81,7 +86,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "alt": "profile",
-            "src": "profile-picture-headshot.jpeg",
+            "src": "images/profile-picture-headshot.jpeg",
           },
           "ref": null,
           "rendered": null,
@@ -93,6 +98,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Imagination meets Technicality",
+            "className": "white-text",
           },
           "ref": null,
           "rendered": "Imagination meets Technicality",

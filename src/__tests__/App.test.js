@@ -20,5 +20,9 @@ describe('App', () => {
     it('contains a `Header` component', () => {
       expect(app.find('Header').exists()).toBe(true);
     });
+
+    it('contains a `Project` component', () => {
+      expect(app.find('Project').exists()).toBe(true);
+    });
   });
 });

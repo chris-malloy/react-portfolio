@@ -20,6 +20,13 @@ ShallowWrapper {
       "children": Array [
         <MyNavbar />,
         <Header />,
+        <Project
+          description="A React Native App"
+          href="https://github.com/caseyezimmerman/TrackR"
+          image="images/trackr-ss.png"
+          link="Github"
+          title="Trackr"
+/>,
       ],
     },
     "ref": null,
@@ -42,6 +49,21 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "description": "A React Native App",
+          "href": "https://github.com/caseyezimmerman/TrackR",
+          "image": "images/trackr-ss.png",
+          "link": "Github",
+          "title": "Trackr",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -54,6 +76,13 @@ ShallowWrapper {
         "children": Array [
           <MyNavbar />,
           <Header />,
+          <Project
+            description="A React Native App"
+            href="https://github.com/caseyezimmerman/TrackR"
+            image="images/trackr-ss.png"
+            link="Github"
+            title="Trackr"
+/>,
         ],
       },
       "ref": null,
@@ -72,6 +101,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "description": "A React Native App",
+            "href": "https://github.com/caseyezimmerman/TrackR",
+            "image": "images/trackr-ss.png",
+            "link": "Github",
+            "title": "Trackr",
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],

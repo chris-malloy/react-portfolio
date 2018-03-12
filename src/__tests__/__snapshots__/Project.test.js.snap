@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Project
+    description="description"
+    href="href"
+    link="link"
+    title="title"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "actions": Array [
+        <a
+          href="href"
+>
+          link
+</a>,
+      ],
+      "children": "description",
+      "className": "small",
+      "header": <CardTitle
+        image="image.png"
+>
+        title
+</CardTitle>,
+    },
+    "ref": null,
+    "rendered": "description",
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "actions": Array [
+          <a
+            href="href"
+>
+            link
+</a>,
+        ],
+        "children": "description",
+        "className": "small",
+        "header": <CardTitle
+          image="image.png"
+>
+          title
+</CardTitle>,
+      },
+      "ref": null,
+      "rendered": "description",
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
