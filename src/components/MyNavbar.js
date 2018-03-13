@@ -6,8 +6,8 @@ const MyNavbar = () => {
     <Navbar brand='Chris Malloy' className="blue" right>
       <NavItem href='/#projects'>Projects</NavItem>
       <NavItem href='/#skills'>Skills</NavItem>
-      <NavItem href='/'>Bio</NavItem>
-      <NavItem href='/'>Contact</NavItem>
+      <NavItem href='/#my-story'>My Story</NavItem>
+      <NavItem href='/#contact'>Contact</NavItem>
       <NavItem href='images/chris-malloy-resume-main.pdf'>Resume</NavItem>
     </Navbar>
   );

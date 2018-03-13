@@ -22,6 +22,7 @@ ShallowWrapper {
           What I Know
 </h5>,
         <Carousel
+          className="carousel"
           images={
                     Array [
                               "images/react-logo.png",
@@ -75,6 +76,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "className": "carousel",
           "images": Array [
             "images/react-logo.png",
             "images/javascript-logo.png",
@@ -138,6 +140,7 @@ ShallowWrapper {
             What I Know
 </h5>,
           <Carousel
+            className="carousel"
             images={
                         Array [
                                     "images/react-logo.png",
@@ -191,6 +194,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "className": "carousel",
             "images": Array [
               "images/react-logo.png",
               "images/javascript-logo.png",

@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import MyFooter from './components/MyFooter';
+import { bio } from './constants/';
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <Projects />
         <Title id="skills" title="Skills" />
         <Skills />
+        <Title id="my-story" title="My Story" />
+        <p>{bio}</p>
         <MyFooter />
       </div>
     </div>

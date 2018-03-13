@@ -57,5 +57,5 @@ export const skillsImages = {
   ]
 };
 
-// TODO
-// - fix react, node, java, and css images
+export const bio = 
+    "I'm a jazz musician turned developer with a passion for learning, collaborating, and solving problems. I specialize in creating UI's with React/React Native and relevant third-party libraries that are simple, clean, responsive, efficient, and easy to understand. It is my belief that code should be used to improv people's lives by streamlining workflow, answering questions about ourselves, and providing entertainment. The great potential of software has only been scratched it's roughly 50 years of development, and yet look at the powerful applications that have already been built. It is my dream to join up with fellow developers and contribute as much as I can to this amazing intellectual movement in human history. ";

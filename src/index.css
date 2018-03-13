@@ -6,20 +6,44 @@ body {
   background-color: #2196f3;
 }
 
+/* COLORS */
+
+.card-action a {
+  color: blue !important;
+}
+
+span.card-title {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+address a {
+  color: #eee;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .profile-picture {
   filter: none;
 }
 
-.title {
-  border-bottom: 2px solid rgb(78, 78, 78);
-}
-
 img {
   height: 100%;
-  filter: grayscale(90%);
+  filter: grayscale(85%);
+}
+
+.carousel img {
+  filter: grayscale(40%);
+}
+
+/* GENERAL */
+
+.title {
+  border-bottom: 2px solid rgb(78, 78, 78);
 }
 
 nav {    
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+

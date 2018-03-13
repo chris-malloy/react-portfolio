@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div>
       <h5>What I Know</h5>
-      <Carousel images={skillsImages.know} />
+      <Carousel className="carousel" images={skillsImages.know} />
       <h5>What I am Learning</h5>
       <Carousel images={skillsImages.learning} />
     </div>

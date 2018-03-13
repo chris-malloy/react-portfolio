@@ -30,12 +30,12 @@ ShallowWrapper {
           Skills
 </NavItem>,
         <NavItem
-          href="/"
+          href="/#my-story"
 >
-          Bio
+          My Story
 </NavItem>,
         <NavItem
-          href="/"
+          href="/#contact"
 >
           Contact
 </NavItem>,
@@ -81,11 +81,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": "Bio",
-          "href": "/",
+          "children": "My Story",
+          "href": "/#my-story",
         },
         "ref": null,
-        "rendered": "Bio",
+        "rendered": "My Story",
         "type": [Function],
       },
       Object {
@@ -94,7 +94,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": "Contact",
-          "href": "/",
+          "href": "/#contact",
         },
         "ref": null,
         "rendered": "Contact",
@@ -134,12 +134,12 @@ ShallowWrapper {
             Skills
 </NavItem>,
           <NavItem
-            href="/"
+            href="/#my-story"
 >
-            Bio
+            My Story
 </NavItem>,
           <NavItem
-            href="/"
+            href="/#contact"
 >
             Contact
 </NavItem>,
@@ -185,11 +185,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Bio",
-            "href": "/",
+            "children": "My Story",
+            "href": "/#my-story",
           },
           "ref": null,
-          "rendered": "Bio",
+          "rendered": "My Story",
           "type": [Function],
         },
         Object {
@@ -198,7 +198,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": "Contact",
-            "href": "/",
+            "href": "/#contact",
           },
           "ref": null,
           "rendered": "Contact",

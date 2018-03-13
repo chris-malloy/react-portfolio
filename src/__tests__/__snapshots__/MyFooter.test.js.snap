@@ -30,6 +30,7 @@ ShallowWrapper {
 </p>,
       ],
       "className": "light-blue",
+      "id": "contact",
       "links": <ul>
         <li>
                 <a
@@ -74,18 +75,19 @@ ShallowWrapper {
                 </a>
         </li>
         <li>
-                <a
-                        className="grey-text text-lighten-3"
-                        href="/email"
-                >
-                        Email
-                        <Icon
-                                right={true}
-                                tiny={true}
+                <address>
+                        <a
+                                href="mailto:chrismalloymusic@gmail.com"
                         >
-                                mail
-                        </Icon>
-                </a>
+                                Email
+                                <Icon
+                                        right={true}
+                                        tiny={true}
+                                >
+                                        mail
+                                </Icon>
+                        </a>
+                </address>
         </li>
 </ul>,
     },
@@ -137,6 +139,7 @@ ShallowWrapper {
 </p>,
         ],
         "className": "light-blue",
+        "id": "contact",
         "links": <ul>
           <li>
                     <a
@@ -181,18 +184,19 @@ ShallowWrapper {
                     </a>
           </li>
           <li>
-                    <a
-                              className="grey-text text-lighten-3"
-                              href="/email"
-                    >
-                              Email
-                              <Icon
-                                        right={true}
-                                        tiny={true}
+                    <address>
+                              <a
+                                        href="mailto:chrismalloymusic@gmail.com"
                               >
-                                        mail
-                              </Icon>
-                    </a>
+                                        Email
+                                        <Icon
+                                                  right={true}
+                                                  tiny={true}
+                                        >
+                                                  mail
+                                        </Icon>
+                              </a>
+                    </address>
           </li>
 </ul>,
       },
