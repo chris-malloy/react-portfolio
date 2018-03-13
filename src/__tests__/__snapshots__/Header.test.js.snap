@@ -23,9 +23,7 @@ ShallowWrapper {
           className="profile-picture"
           src="images/profile-picture-headshot.jpeg"
 />,
-        <h3
-          className="white-text"
->
+        <h3>
           Imagination meets Technicality
 </h3>,
       ],
@@ -52,7 +50,6 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Imagination meets Technicality",
-          "className": "white-text",
         },
         "ref": null,
         "rendered": "Imagination meets Technicality",
@@ -73,9 +70,7 @@ ShallowWrapper {
             className="profile-picture"
             src="images/profile-picture-headshot.jpeg"
 />,
-          <h3
-            className="white-text"
->
+          <h3>
             Imagination meets Technicality
 </h3>,
         ],
@@ -102,7 +97,6 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Imagination meets Technicality",
-            "className": "white-text",
           },
           "ref": null,
           "rendered": "Imagination meets Technicality",

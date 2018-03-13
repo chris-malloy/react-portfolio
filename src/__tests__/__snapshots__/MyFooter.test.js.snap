@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyFooter renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MyFooter />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <h5
+          className="white-text"
+>
+          Thanks for visiting!
+</h5>,
+        <p
+          className="grey-text text-lighten-4"
+>
+          Want to ask me anything about coding?  I'd love to chat!
+</p>,
+      ],
+      "className": "light-blue",
+      "links": <ul>
+        <li>
+                <a
+                        className="grey-text text-lighten-3"
+                        href="https://github.com/chris-malloy"
+                >
+                        Github
+                        <Icon
+                                right={true}
+                                tiny={true}
+                        >
+                                code
+                        </Icon>
+                </a>
+        </li>
+        <li>
+                <a
+                        className="grey-text text-lighten-3"
+                        href="https://www.linkedin.com/in/christopher-malloy/"
+                >
+                        Linkedin
+                        <Icon
+                                right={true}
+                                tiny={true}
+                        >
+                                work
+                        </Icon>
+                </a>
+        </li>
+        <li>
+                <a
+                        className="grey-text text-lighten-3"
+                        href="https://twitter.com/chris_malloy17"
+                >
+                        Twitter
+                        <Icon
+                                right={true}
+                                tiny={true}
+                        >
+                                group
+                        </Icon>
+                </a>
+        </li>
+        <li>
+                <a
+                        className="grey-text text-lighten-3"
+                        href="/email"
+                >
+                        Email
+                        <Icon
+                                right={true}
+                                tiny={true}
+                        >
+                                mail
+                        </Icon>
+                </a>
+        </li>
+</ul>,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Thanks for visiting!",
+          "className": "white-text",
+        },
+        "ref": null,
+        "rendered": "Thanks for visiting!",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Want to ask me anything about coding?  I'd love to chat!",
+          "className": "grey-text text-lighten-4",
+        },
+        "ref": null,
+        "rendered": "Want to ask me anything about coding?  I'd love to chat!",
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <h5
+            className="white-text"
+>
+            Thanks for visiting!
+</h5>,
+          <p
+            className="grey-text text-lighten-4"
+>
+            Want to ask me anything about coding?  I'd love to chat!
+</p>,
+        ],
+        "className": "light-blue",
+        "links": <ul>
+          <li>
+                    <a
+                              className="grey-text text-lighten-3"
+                              href="https://github.com/chris-malloy"
+                    >
+                              Github
+                              <Icon
+                                        right={true}
+                                        tiny={true}
+                              >
+                                        code
+                              </Icon>
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="grey-text text-lighten-3"
+                              href="https://www.linkedin.com/in/christopher-malloy/"
+                    >
+                              Linkedin
+                              <Icon
+                                        right={true}
+                                        tiny={true}
+                              >
+                                        work
+                              </Icon>
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="grey-text text-lighten-3"
+                              href="https://twitter.com/chris_malloy17"
+                    >
+                              Twitter
+                              <Icon
+                                        right={true}
+                                        tiny={true}
+                              >
+                                        group
+                              </Icon>
+                    </a>
+          </li>
+          <li>
+                    <a
+                              className="grey-text text-lighten-3"
+                              href="/email"
+                    >
+                              Email
+                              <Icon
+                                        right={true}
+                                        tiny={true}
+                              >
+                                        mail
+                              </Icon>
+                    </a>
+          </li>
+</ul>,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Thanks for visiting!",
+            "className": "white-text",
+          },
+          "ref": null,
+          "rendered": "Thanks for visiting!",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Want to ask me anything about coding?  I'd love to chat!",
+            "className": "grey-text text-lighten-4",
+          },
+          "ref": null,
+          "rendered": "Want to ask me anything about coding?  I'd love to chat!",
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -5,6 +5,7 @@ import MyNavbar from './components/MyNavbar';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import MyFooter from './components/MyFooter';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Projects />
         <Title id="skills" title="Skills" />
         <Skills />
+        <MyFooter />
       </div>
     </div>
   );

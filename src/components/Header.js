@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="center blue"> 
       <img className="profile-picture" src="images/profile-picture-headshot.jpeg" alt="profile" />
-      <h3 className="white-text">Imagination meets Technicality</h3>
+      <h3>Imagination meets Technicality</h3>
     </div>
   )
 }

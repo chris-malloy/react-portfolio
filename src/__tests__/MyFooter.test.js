@@ -1,16 +1,14 @@
 import React from 'react';
 import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import MyNavbar from '../components/MyNavbar';
+import MyFooter from '../components/MyFooter';
 
 configure({ adapter: new Adapter() });
 
-describe('MyNavbar', () => {
-  const myNavbar = shallow(<MyNavbar />);
+describe('MyFooter', () => {
+  const myFooter = shallow(<MyFooter />);
 
   it('renders correctly', () => {
-    expect(myNavbar).toMatchSnapshot();
+    expect(myFooter).toMatchSnapshot();
   });
-
-  
 });

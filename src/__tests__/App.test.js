@@ -31,5 +31,9 @@ describe('App', () => {
     it('contains a `Skills` component', () => {
       expect(app.find('Skills').exists()).toBe(true);
     });
+
+    it('contains a `MyFooter` component', () => {
+      expect(app.find('MyFooter').exists()).toBe(true);
+    })
   });
 });
