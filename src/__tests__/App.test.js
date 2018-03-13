@@ -21,8 +21,8 @@ describe('App', () => {
       expect(app.find('Header').exists()).toBe(true);
     });
 
-    it('contains a `Project` component', () => {
-      expect(app.find('Project').exists()).toBe(true);
+    it('contains a `Projects` component', () => {
+      expect(app.find('Projects').exists()).toBe(true);
     });
   });
 });

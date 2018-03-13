@@ -20,7 +20,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
       "children": <Card
         actions={
@@ -30,9 +30,12 @@ ShallowWrapper {
                 >
                           link
                 </a>,
+                        <a
+                          href={undefined}
+                />,
                       ]
         }
-        className="small black-text "
+        className="small black-text"
         header={
                 <CardTitle
                         image="image.png"
@@ -43,11 +46,13 @@ ShallowWrapper {
 >
         description
 </Card>,
+      "m": 6,
+      "s": 12,
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
-      "key": "1",
+      "key": undefined,
       "nodeType": "function",
       "props": Object {
         "actions": Array [
@@ -56,9 +61,12 @@ ShallowWrapper {
 >
             link
 </a>,
+          <a
+            href={undefined}
+/>,
         ],
         "children": "description",
-        "className": "small black-text ",
+        "className": "small black-text",
         "header": <CardTitle
           image="image.png"
 >
@@ -69,13 +77,13 @@ ShallowWrapper {
       "rendered": "description",
       "type": [Function],
     },
-    "type": "div",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
         "children": <Card
           actions={
@@ -85,9 +93,12 @@ ShallowWrapper {
                     >
                                 link
                     </a>,
+                              <a
+                                href={undefined}
+                    />,
                             ]
           }
-          className="small black-text "
+          className="small black-text"
           header={
                     <CardTitle
                               image="image.png"
@@ -98,11 +109,13 @@ ShallowWrapper {
 >
           description
 </Card>,
+        "m": 6,
+        "s": 12,
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
-        "key": "1",
+        "key": undefined,
         "nodeType": "function",
         "props": Object {
           "actions": Array [
@@ -111,9 +124,12 @@ ShallowWrapper {
 >
               link
 </a>,
+            <a
+              href={undefined}
+/>,
           ],
           "children": "description",
-          "className": "small black-text ",
+          "className": "small black-text",
           "header": <CardTitle
             image="image.png"
 >
@@ -124,7 +140,7 @@ ShallowWrapper {
         "rendered": "description",
         "type": [Function],
       },
-      "type": "div",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

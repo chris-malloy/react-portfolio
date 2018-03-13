@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Projects />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Project
+          description="A React Native app that uses Google Maps API to track your running routes."
+          href="https://github.com/caseyezimmerman/TrackR"
+          href2={undefined}
+          image="images/trackr-ss.png"
+          link="Github"
+          link2={undefined}
+          title="Trackr"
+/>,
+        <Project
+          description="An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server."
+          href="https://github.com/chris-malloy/ecommerce"
+          href2="https://bittymotors.chrismalloy.net/"
+          image="images/bitty-motors-ss.png"
+          link="Github"
+          link2="Live Site"
+          title="Bitty Motors"
+/>,
+        <Project
+          description="This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps"
+          href="https://github.com/caseyezimmerman/cityRunner"
+          href2={undefined}
+          image="images/city-runner-ss.png"
+          link="Github"
+          link2={undefined}
+          title="City Runner"
+/>,
+        <Project
+          description="A twist on an old card game. Built with Bootstrap and jQuery"
+          href="projectList"
+          href2={undefined}
+          image="images/tronjack-ss.png"
+          link="Github"
+          link2={undefined}
+          title="Tronjack"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "description": "A React Native app that uses Google Maps API to track your running routes.",
+          "href": "https://github.com/caseyezimmerman/TrackR",
+          "href2": undefined,
+          "image": "images/trackr-ss.png",
+          "link": "Github",
+          "link2": undefined,
+          "title": "Trackr",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "description": "An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server.",
+          "href": "https://github.com/chris-malloy/ecommerce",
+          "href2": "https://bittymotors.chrismalloy.net/",
+          "image": "images/bitty-motors-ss.png",
+          "link": "Github",
+          "link2": "Live Site",
+          "title": "Bitty Motors",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "description": "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps",
+          "href": "https://github.com/caseyezimmerman/cityRunner",
+          "href2": undefined,
+          "image": "images/city-runner-ss.png",
+          "link": "Github",
+          "link2": undefined,
+          "title": "City Runner",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "description": "A twist on an old card game. Built with Bootstrap and jQuery",
+          "href": "projectList",
+          "href2": undefined,
+          "image": "images/tronjack-ss.png",
+          "link": "Github",
+          "link2": undefined,
+          "title": "Tronjack",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Project
+            description="A React Native app that uses Google Maps API to track your running routes."
+            href="https://github.com/caseyezimmerman/TrackR"
+            href2={undefined}
+            image="images/trackr-ss.png"
+            link="Github"
+            link2={undefined}
+            title="Trackr"
+/>,
+          <Project
+            description="An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server."
+            href="https://github.com/chris-malloy/ecommerce"
+            href2="https://bittymotors.chrismalloy.net/"
+            image="images/bitty-motors-ss.png"
+            link="Github"
+            link2="Live Site"
+            title="Bitty Motors"
+/>,
+          <Project
+            description="This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps"
+            href="https://github.com/caseyezimmerman/cityRunner"
+            href2={undefined}
+            image="images/city-runner-ss.png"
+            link="Github"
+            link2={undefined}
+            title="City Runner"
+/>,
+          <Project
+            description="A twist on an old card game. Built with Bootstrap and jQuery"
+            href="projectList"
+            href2={undefined}
+            image="images/tronjack-ss.png"
+            link="Github"
+            link2={undefined}
+            title="Tronjack"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "description": "A React Native app that uses Google Maps API to track your running routes.",
+            "href": "https://github.com/caseyezimmerman/TrackR",
+            "href2": undefined,
+            "image": "images/trackr-ss.png",
+            "link": "Github",
+            "link2": undefined,
+            "title": "Trackr",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "description": "An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server.",
+            "href": "https://github.com/chris-malloy/ecommerce",
+            "href2": "https://bittymotors.chrismalloy.net/",
+            "image": "images/bitty-motors-ss.png",
+            "link": "Github",
+            "link2": "Live Site",
+            "title": "Bitty Motors",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "description": "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps",
+            "href": "https://github.com/caseyezimmerman/cityRunner",
+            "href2": undefined,
+            "image": "images/city-runner-ss.png",
+            "link": "Github",
+            "link2": undefined,
+            "title": "City Runner",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "description": "A twist on an old card game. Built with Bootstrap and jQuery",
+            "href": "projectList",
+            "href2": undefined,
+            "image": "images/tronjack-ss.png",
+            "link": "Github",
+            "link2": undefined,
+            "title": "Tronjack",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
