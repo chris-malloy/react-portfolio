@@ -3,6 +3,7 @@ import './App.css';
 import MyNavbar from './components/MyNavbar';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 class App extends Component {
   render() {
@@ -11,8 +12,14 @@ class App extends Component {
         <MyNavbar />
         <div className="container">
           <Header />
-          <h5 className="center">Projects</h5>
+          <a id="projects">
+            <h5 className="center white-text title">Projects</h5>
+          </a>
           <Projects />
+          <a id="projects">
+            <h5 className="center white-text title">Skills</h5>
+          </a>
+          <Skills />
         </div>
       </div>
     );

@@ -24,5 +24,9 @@ describe('App', () => {
     it('contains a `Projects` component', () => {
       expect(app.find('Projects').exists()).toBe(true);
     });
+
+    it('contains a `Skills` component', () => {
+      expect(app.find('Skills').exists()).toBe(true);
+    });
   });
 });

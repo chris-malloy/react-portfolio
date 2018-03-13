@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Skills />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h5>
+          What I Know
+</h5>,
+        <Carousel
+          images={
+                    Array [
+                              "images/react-logo.png",
+                              "images/javascript-logo.png",
+                              "images/jest-logo.png",
+                              "images/node-logo.png",
+                              "images/mysql-logo.png",
+                              "images/express-logo.png",
+                              "images/jquery-logo.png",
+                              "images/materialize-logo.png",
+                              "images/bootstrap-logo.png",
+                              "images/html-logo.png",
+                              "images/css-logo.png",
+                            ]
+          }
+/>,
+        <h5>
+          What I am Learning
+</h5>,
+        <Carousel
+          images={
+                    Array [
+                              "images/mocha-logo.svg",
+                              "images/chai-logo.png",
+                              "images/bitcoin-logo.png",
+                              "images/java-logo.png",
+                              "images/python-logo.png",
+                              "images/aws-logo.png",
+                              "images/apache-logo.png",
+                              "images/postgresql-logo.jpg",
+                            ]
+          }
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "What I Know",
+        },
+        "ref": null,
+        "rendered": "What I Know",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "images": Array [
+            "images/react-logo.png",
+            "images/javascript-logo.png",
+            "images/jest-logo.png",
+            "images/node-logo.png",
+            "images/mysql-logo.png",
+            "images/express-logo.png",
+            "images/jquery-logo.png",
+            "images/materialize-logo.png",
+            "images/bootstrap-logo.png",
+            "images/html-logo.png",
+            "images/css-logo.png",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "What I am Learning",
+        },
+        "ref": null,
+        "rendered": "What I am Learning",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "images": Array [
+            "images/mocha-logo.svg",
+            "images/chai-logo.png",
+            "images/bitcoin-logo.png",
+            "images/java-logo.png",
+            "images/python-logo.png",
+            "images/aws-logo.png",
+            "images/apache-logo.png",
+            "images/postgresql-logo.jpg",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h5>
+            What I Know
+</h5>,
+          <Carousel
+            images={
+                        Array [
+                                    "images/react-logo.png",
+                                    "images/javascript-logo.png",
+                                    "images/jest-logo.png",
+                                    "images/node-logo.png",
+                                    "images/mysql-logo.png",
+                                    "images/express-logo.png",
+                                    "images/jquery-logo.png",
+                                    "images/materialize-logo.png",
+                                    "images/bootstrap-logo.png",
+                                    "images/html-logo.png",
+                                    "images/css-logo.png",
+                                  ]
+            }
+/>,
+          <h5>
+            What I am Learning
+</h5>,
+          <Carousel
+            images={
+                        Array [
+                                    "images/mocha-logo.svg",
+                                    "images/chai-logo.png",
+                                    "images/bitcoin-logo.png",
+                                    "images/java-logo.png",
+                                    "images/python-logo.png",
+                                    "images/aws-logo.png",
+                                    "images/apache-logo.png",
+                                    "images/postgresql-logo.jpg",
+                                  ]
+            }
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "What I Know",
+          },
+          "ref": null,
+          "rendered": "What I Know",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "images": Array [
+              "images/react-logo.png",
+              "images/javascript-logo.png",
+              "images/jest-logo.png",
+              "images/node-logo.png",
+              "images/mysql-logo.png",
+              "images/express-logo.png",
+              "images/jquery-logo.png",
+              "images/materialize-logo.png",
+              "images/bootstrap-logo.png",
+              "images/html-logo.png",
+              "images/css-logo.png",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "What I am Learning",
+          },
+          "ref": null,
+          "rendered": "What I am Learning",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "images": Array [
+              "images/mocha-logo.svg",
+              "images/chai-logo.png",
+              "images/bitcoin-logo.png",
+              "images/java-logo.png",
+              "images/python-logo.png",
+              "images/aws-logo.png",
+              "images/apache-logo.png",
+              "images/postgresql-logo.jpg",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

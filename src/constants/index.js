@@ -30,3 +30,32 @@ export const projectArray =  [
     image: "images/tronjack-ss.png"
   }
 ];
+
+export const skillsImages = {
+  know: [
+    'images/react-logo.png',
+    'images/javascript-logo.png',
+    'images/jest-logo.png',
+    'images/node-logo.png',
+    'images/mysql-logo.png',
+    'images/express-logo.png',
+    'images/jquery-logo.png',
+    'images/materialize-logo.png',
+    'images/bootstrap-logo.png',
+    'images/html-logo.png',
+    'images/css-logo.png',
+  ],
+  learning: [
+    'images/mocha-logo.svg',
+    'images/chai-logo.png',
+    'images/bitcoin-logo.png',
+    'images/java-logo.png',
+    'images/python-logo.png',
+    'images/aws-logo.png',
+    'images/apache-logo.png',
+    'images/postgresql-logo.jpg'
+  ]
+};
+
+// TODO
+// - fix react, node, java, and css images

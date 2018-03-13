@@ -5,11 +5,17 @@ body {
   color: white;
   background-color: #2196f3;
 }
+
 .profile-picture {
   filter: none;
 }
 
+.title {
+  border-bottom: 2px solid rgb(78, 78, 78);
+}
+
 img {
+  height: 100%;
   filter: grayscale(90%);
 }
 

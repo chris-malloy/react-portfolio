@@ -23,11 +23,11 @@ ShallowWrapper {
           className="profile-picture"
           src="images/profile-picture-headshot.jpeg"
 />,
-        <h5
+        <h3
           className="white-text"
 >
           Imagination meets Technicality
-</h5>,
+</h3>,
       ],
       "className": "center blue",
     },
@@ -56,7 +56,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Imagination meets Technicality",
-        "type": "h5",
+        "type": "h3",
       },
     ],
     "type": "div",
@@ -73,11 +73,11 @@ ShallowWrapper {
             className="profile-picture"
             src="images/profile-picture-headshot.jpeg"
 />,
-          <h5
+          <h3
             className="white-text"
 >
             Imagination meets Technicality
-</h5>,
+</h3>,
         ],
         "className": "center blue",
       },
@@ -106,7 +106,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Imagination meets Technicality",
-          "type": "h5",
+          "type": "h3",
         },
       ],
       "type": "div",

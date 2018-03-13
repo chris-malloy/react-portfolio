@@ -1,14 +1,14 @@
 import React from 'react';
 import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Header from '../components/Header';
+import Skills from '../components/Skills';
 
 configure({ adapter: new Adapter() });
 
-describe('Header', () => {
-  const header = shallow(<Header />);
-  
+describe('Skill', () => {
+  const skills = shallow(<Skills />);
+
   it('renders correctly', () => {
-    expect(header).toMatchSnapshot();
+    expect(skills).toMatchSnapshot();
   });
 });

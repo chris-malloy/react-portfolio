@@ -20,12 +20,12 @@ ShallowWrapper {
       "brand": "Chris Malloy",
       "children": Array [
         <NavItem
-          href="/#Projects"
+          href="/#projects"
 >
           Projects
 </NavItem>,
         <NavItem
-          href="/"
+          href="/#skills"
 >
           Skills
 </NavItem>,
@@ -58,7 +58,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": "Projects",
-          "href": "/#Projects",
+          "href": "/#projects",
         },
         "ref": null,
         "rendered": "Projects",
@@ -70,7 +70,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": "Skills",
-          "href": "/",
+          "href": "/#skills",
         },
         "ref": null,
         "rendered": "Skills",
@@ -124,12 +124,12 @@ ShallowWrapper {
         "brand": "Chris Malloy",
         "children": Array [
           <NavItem
-            href="/#Projects"
+            href="/#projects"
 >
             Projects
 </NavItem>,
           <NavItem
-            href="/"
+            href="/#skills"
 >
             Skills
 </NavItem>,
@@ -162,7 +162,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": "Projects",
-            "href": "/#Projects",
+            "href": "/#projects",
           },
           "ref": null,
           "rendered": "Projects",
@@ -174,7 +174,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": "Skills",
-            "href": "/",
+            "href": "/#skills",
           },
           "ref": null,
           "rendered": "Skills",
