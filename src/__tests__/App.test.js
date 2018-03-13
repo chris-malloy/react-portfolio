@@ -12,6 +12,9 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
   describe('my components', () => {
+    it('contains a `Title` component', () => {
+      expect(app.find('Title').exists()).toBe(true);
+    });
 
     it('contains a `MyNavbar` component', () => {
       expect(app.find('MyNavbar').exists()).toBe(true);
