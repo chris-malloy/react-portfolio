@@ -24,7 +24,7 @@ export const projectArray =  [
   },
   {
     title: "Tronjack",
-    href: "projectList",
+    href: "https://github.com/chris-malloy/tronjack",
     link: "Github",
     description: "A twist on an old card game. Built with Bootstrap and jQuery",
     image: "images/tronjack-ss.png"

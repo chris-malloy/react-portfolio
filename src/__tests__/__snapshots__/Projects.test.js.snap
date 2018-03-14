@@ -47,7 +47,7 @@ ShallowWrapper {
 />,
         <Project
           description="A twist on an old card game. Built with Bootstrap and jQuery"
-          href="projectList"
+          href="https://github.com/chris-malloy/tronjack"
           href2={undefined}
           image="images/tronjack-ss.png"
           link="Github"
@@ -115,7 +115,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "description": "A twist on an old card game. Built with Bootstrap and jQuery",
-          "href": "projectList",
+          "href": "https://github.com/chris-malloy/tronjack",
           "href2": undefined,
           "image": "images/tronjack-ss.png",
           "link": "Github",
@@ -165,7 +165,7 @@ ShallowWrapper {
 />,
           <Project
             description="A twist on an old card game. Built with Bootstrap and jQuery"
-            href="projectList"
+            href="https://github.com/chris-malloy/tronjack"
             href2={undefined}
             image="images/tronjack-ss.png"
             link="Github"
@@ -233,7 +233,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "description": "A twist on an old card game. Built with Bootstrap and jQuery",
-            "href": "projectList",
+            "href": "https://github.com/chris-malloy/tronjack",
             "href2": undefined,
             "image": "images/tronjack-ss.png",
             "link": "Github",
