@@ -40,7 +40,7 @@ ShallowWrapper {
           Contact
 </NavItem>,
         <NavItem
-          href="images/chris-malloy-resume-main.pdf"
+          href="https://drive.google.com/file/d/1BizyCBAZIJnNmVx91TeZkArLDSdVSN6l/view?usp=sharing"
 >
           Resume
 </NavItem>,
@@ -106,7 +106,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": "Resume",
-          "href": "images/chris-malloy-resume-main.pdf",
+          "href": "https://drive.google.com/file/d/1BizyCBAZIJnNmVx91TeZkArLDSdVSN6l/view?usp=sharing",
         },
         "ref": null,
         "rendered": "Resume",
@@ -144,7 +144,7 @@ ShallowWrapper {
             Contact
 </NavItem>,
           <NavItem
-            href="images/chris-malloy-resume-main.pdf"
+            href="https://drive.google.com/file/d/1BizyCBAZIJnNmVx91TeZkArLDSdVSN6l/view?usp=sharing"
 >
             Resume
 </NavItem>,
@@ -210,7 +210,7 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": "Resume",
-            "href": "images/chris-malloy-resume-main.pdf",
+            "href": "https://drive.google.com/file/d/1BizyCBAZIJnNmVx91TeZkArLDSdVSN6l/view?usp=sharing",
           },
           "ref": null,
           "rendered": "Resume",

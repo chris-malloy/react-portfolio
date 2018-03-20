@@ -8,7 +8,7 @@ const MyNavbar = () => {
       <NavItem href='/#skills'>Skills</NavItem>
       <NavItem href='/#my-story'>My Story</NavItem>
       <NavItem href='/#contact'>Contact</NavItem>
-      <NavItem href='images/chris-malloy-resume-main.pdf'>Resume</NavItem>
+      <NavItem href='https://drive.google.com/file/d/1BizyCBAZIJnNmVx91TeZkArLDSdVSN6l/view?usp=sharing'>Resume</NavItem>
     </Navbar>
   );
 };
