@@ -1,5 +1,14 @@
 export const projectArray =  [
   {
+    title: "weatherU",
+    href: "https://github.com/chris-malloy/weatherU",
+    link: "Github",
+    href2: "https://weatheru.chrismalloy.net/",
+    link2: "Live Site",
+    description: "A fun web app that gives recommendations based on current weather. Built with React/Redux and leverages the open weather map API to fetch weather data.",
+    image: "images/weatherU-ss.png",
+  },
+  {
     title: "Trackr",
     href: "https://github.com/caseyezimmerman/TrackR",
     link: "Github",
