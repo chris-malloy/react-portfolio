@@ -12,7 +12,7 @@ const Project = (props) => {
   return (
     <Col m={6} s={12}>
       <Card 
-        className="small black-text"
+        className="small"
         header={<CardTitle image={props.image || "image.png"}>{props.title}</CardTitle>}
         actions={actions}>
         {props.description}

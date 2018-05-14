@@ -13,10 +13,10 @@ const MyFooter = () => {
         </ul>
       }
       id="contact"
-      className='light-blue'
+      className='grey'
     >
-      <h5 className="white-text">Thanks for visiting!</h5>
-      <p className="grey-text text-lighten-4">Want to ask me anything about coding?  I'd love to chat!</p>
+      <h5>Thanks for visiting!</h5>
+      <p>Want to ask me anything about coding?  I'd love to chat!</p>
     </Footer>
   )
 }

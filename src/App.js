@@ -10,7 +10,7 @@ import { bio } from './constants/';
 
 const App = () => {
   return (
-    <div className="blue">
+    <div className="blue darken-4 ">
       <MyNavbar />
       <div className="container">
         <Header />

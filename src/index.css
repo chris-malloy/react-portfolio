@@ -1,17 +1,37 @@
+:root {
+    --main-text-color: #e0e0e0; 
+    --href-color: #1565c0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: monospace;
-  color: white;
-  background-color: #2196f3;
+  color: var(--main-text-color);
+}
+
+nav .brand-logo {
+  padding-left: 178px;
+  color: var(--main-text-color);
+}
+
+ul:not(.browser-default) {
+  padding-right: 60px;
+  color: var(--main-text-color);
+}
+
+a h5, li a {
+  color: var(--main-text-color) !important;
 }
 
 #hero {
-  margin-bottom: 150px;
+  margin-top: 100px;
+  color: var(--main-text-color);
 }
 
 #projects, #skills, #my-story, #contact {
   margin-top: 150px;
+  color: var(--main-text-color);
 }
 
 #bio {
@@ -24,7 +44,7 @@ body {
 /* COLORS */
 
 .card-action a {
-  color: blue !important;
+  color: var(--href-color) !important;
 }
 
 span.card-title {
@@ -53,7 +73,7 @@ img {
 /* GENERAL */
 
 .title {
-  border-bottom: 2px solid rgb(78, 78, 78);
+  border-bottom: 2px solid #949494;
 }
 
 nav {    
