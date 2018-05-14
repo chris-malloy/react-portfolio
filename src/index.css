@@ -1,9 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: monospace;
   color: white;
   background-color: #2196f3;
+}
+
+#hero {
+  margin-bottom: 150px;
+}
+
+#projects, #skills, #my-story, #contact {
+  margin-top: 150px;
+}
+
+#bio {
+  margin: 0px 120px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
 }
 
 /* COLORS */

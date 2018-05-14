@@ -19,7 +19,7 @@ const App = () => {
         <Title id="skills" title="Skills" />
         <Skills />
         <Title id="my-story" title="My Story" />
-        <p>{bio}</p>
+        <p id="bio">{bio}</p>
         <MyFooter />
       </div>
     </div>
