@@ -14,12 +14,12 @@ const App = () => {
       <MyNavbar />
       <div className="container">
         <Header />
+        <Title id="my-story" title="My Story" />
+        <p className="my-story-content">{bio}</p>
         <Title id="projects" title="Projects" />
         <Projects />
         <Title id="skills" title="Skills" />
         <Skills />
-        <Title id="my-story" title="My Story" />
-        <p id="bio">{bio}</p>
         <MyFooter />
       </div>
     </div>

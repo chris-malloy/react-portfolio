@@ -6,42 +6,25 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: monospace;
+  font-family: 'Raleway', sans-serif;
   color: var(--main-text-color);
 }
 
 nav .brand-logo {
-  padding-left: 178px;
+  padding-left: 10%;
   color: var(--main-text-color);
 }
 
 ul:not(.browser-default) {
-  padding-right: 60px;
+  padding-right: 5%;
   color: var(--main-text-color);
 }
+
+/* COLORS */
 
 a h5, li a {
   color: var(--main-text-color) !important;
 }
-
-#hero {
-  margin-top: 100px;
-  color: var(--main-text-color);
-}
-
-#projects, #skills, #my-story, #contact {
-  margin-top: 150px;
-  color: var(--main-text-color);
-}
-
-#bio {
-  margin: 0px 120px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 16px;
-}
-
-/* COLORS */
 
 .card-action a {
   color: var(--href-color) !important;
@@ -70,6 +53,18 @@ img {
   filter: grayscale(40%);
 }
 
+.navbar-fixed.scrolled > nav,
+.navbar-fixed.scrolled > nav > div > div > ul  {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed.scrolled > nav > div > div .brand-logo,
+.navbar-fixed.scrolled > nav > div > div ul > li {
+  color: #0D47A1  !important;
+  transition: color 200ms linear;
+}
+
 /* GENERAL */
 
 .title {
@@ -80,5 +75,24 @@ nav {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
+#hero {
+  margin-top: 100px;
+  color: var(--main-text-color);
+}
+
+#projects, #skills, #my-story, #contact {
+  margin-top: 150px;
+  color: var(--main-text-color);
+}
+
+.my-story-content {
+  margin: 0px 10%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+
 
 
