@@ -19,6 +19,18 @@ nav .brand-logo {
   color: var(--main-text-color);
 }
 
+@media screen and (max-width: 768px) {
+  nav .brand-logo {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  nav .brand-logo {
+    margin-left: -7px;
+  }
+}
+
 ul:not(.browser-default) {
   padding-right: 5%;
   color: var(--main-text-color);
@@ -28,6 +40,10 @@ ul:not(.browser-default) {
 
 a h5, li a {
   color: var(--main-text-color) !important;
+}
+
+#nav-mobile {
+  background-color: var(--alt-bkg-color) !important;
 }
 
 #nav-mobile > li a {
