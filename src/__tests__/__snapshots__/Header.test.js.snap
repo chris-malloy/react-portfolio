@@ -27,7 +27,8 @@ ShallowWrapper {
           Imagination meets Technicality
 </h3>,
       ],
-      "className": "center blue",
+      "className": "center",
+      "id": "hero",
     },
     "ref": null,
     "rendered": Array [
@@ -74,7 +75,8 @@ ShallowWrapper {
             Imagination meets Technicality
 </h3>,
         ],
-        "className": "center blue",
+        "className": "center",
+        "id": "hero",
       },
       "ref": null,
       "rendered": Array [

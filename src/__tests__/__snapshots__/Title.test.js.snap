@@ -17,9 +17,11 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h5
-        className="center white-text title"
-/>,
+      "children": <a>
+        <h5
+                className="center title"
+        />
+</a>,
       "id": undefined,
     },
     "ref": null,
@@ -28,25 +30,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": undefined,
-        "className": "center white-text title",
-      },
-      "ref": null,
-      "rendered": null,
-      "type": "h5",
-    },
-    "type": "a",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
         "children": <h5
-          className="center white-text title"
+          className="center title"
 />,
-        "id": undefined,
       },
       "ref": null,
       "rendered": Object {
@@ -55,13 +41,55 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": undefined,
-          "className": "center white-text title",
+          "className": "center title",
         },
         "ref": null,
         "rendered": null,
         "type": "h5",
       },
       "type": "a",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <a>
+          <h5
+                    className="center title"
+          />
+</a>,
+        "id": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h5
+            className="center title"
+/>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "center title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h5",
+        },
+        "type": "a",
+      },
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

@@ -45,7 +45,8 @@ ShallowWrapper {
           Resume
 </NavItem>,
       ],
-      "className": "blue",
+      "className": "blue darken-4",
+      "fixed": true,
       "href": "/",
       "options": Object {},
       "right": true,
@@ -149,7 +150,8 @@ ShallowWrapper {
             Resume
 </NavItem>,
         ],
-        "className": "blue",
+        "className": "blue darken-4",
+        "fixed": true,
         "href": "/",
         "options": Object {},
         "right": true,

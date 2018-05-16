@@ -18,18 +18,14 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": Array [
-        <h5
-          className="white-text"
->
+        <h5>
           Thanks for visiting!
 </h5>,
-        <p
-          className="grey-text text-lighten-4"
->
+        <p>
           Want to ask me anything about coding?  I'd love to chat!
 </p>,
       ],
-      "className": "light-blue",
+      "className": "grey",
       "id": "contact",
       "links": <ul>
         <li>
@@ -99,7 +95,6 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Thanks for visiting!",
-          "className": "white-text",
         },
         "ref": null,
         "rendered": "Thanks for visiting!",
@@ -111,7 +106,6 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Want to ask me anything about coding?  I'd love to chat!",
-          "className": "grey-text text-lighten-4",
         },
         "ref": null,
         "rendered": "Want to ask me anything about coding?  I'd love to chat!",
@@ -127,18 +121,14 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": Array [
-          <h5
-            className="white-text"
->
+          <h5>
             Thanks for visiting!
 </h5>,
-          <p
-            className="grey-text text-lighten-4"
->
+          <p>
             Want to ask me anything about coding?  I'd love to chat!
 </p>,
         ],
-        "className": "light-blue",
+        "className": "grey",
         "id": "contact",
         "links": <ul>
           <li>
@@ -208,7 +198,6 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Thanks for visiting!",
-            "className": "white-text",
           },
           "ref": null,
           "rendered": "Thanks for visiting!",
@@ -220,7 +209,6 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Want to ask me anything about coding?  I'd love to chat!",
-            "className": "grey-text text-lighten-4",
           },
           "ref": null,
           "rendered": "Want to ask me anything about coding?  I'd love to chat!",

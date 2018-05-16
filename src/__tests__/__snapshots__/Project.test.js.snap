@@ -35,7 +35,7 @@ ShallowWrapper {
                 />,
                       ]
         }
-        className="small black-text"
+        className="small"
         header={
                 <CardTitle
                         image="image.png"
@@ -66,7 +66,7 @@ ShallowWrapper {
 />,
         ],
         "children": "description",
-        "className": "small black-text",
+        "className": "small",
         "header": <CardTitle
           image="image.png"
 >
@@ -98,7 +98,7 @@ ShallowWrapper {
                     />,
                             ]
           }
-          className="small black-text"
+          className="small"
           header={
                     <CardTitle
                               image="image.png"
@@ -129,7 +129,7 @@ ShallowWrapper {
 />,
           ],
           "children": "description",
-          "className": "small black-text",
+          "className": "small",
           "header": <CardTitle
             image="image.png"
 >

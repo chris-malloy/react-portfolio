@@ -1,6 +1,10 @@
 :root {
+    --main-bkg-color: #0D47A1;
+    --alt-bkg-color: #f0f0f0;
     --main-text-color: #e0e0e0; 
+    --alt-text-color: #0D47A1;
     --href-color: #1565c0;
+    --content-text-color: #4f4f4f;
 }
 
 body {
@@ -26,12 +30,16 @@ a h5, li a {
   color: var(--main-text-color) !important;
 }
 
+#nav-mobile > li a {
+  color: var(--alt-text-color) !important;
+}
+
 .card-action a {
   color: var(--href-color) !important;
 }
 
-span.card-title {
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+.card-content, .card-title {
+ color: var(--content-text-color);
 }
 
 address a {
@@ -53,16 +61,27 @@ img {
   filter: grayscale(40%);
 }
 
+.navbar-fixed > nav,
+.navbar-fixed > nav > div > div > ul {
+  background-color: var(--main-bkg-color) !important;
+  transition: background-color 300ms linear;
+}
 .navbar-fixed.scrolled > nav,
 .navbar-fixed.scrolled > nav > div > div > ul  {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+  background-color: var(--alt-bkg-color) !important;
+  transition: background-color 300ms linear;
+}
+
+.navbar-fixed > nav > div > div .brand-logo,
+.navbar-fixed > nav > div > div ul > li a {
+  color: var(--main-text-color)  !important;
+  transition: color 300ms linear;
 }
 
 .navbar-fixed.scrolled > nav > div > div .brand-logo,
-.navbar-fixed.scrolled > nav > div > div ul > li {
-  color: #0D47A1  !important;
-  transition: color 200ms linear;
+.navbar-fixed.scrolled > nav > div > div ul > li a {
+  color: var(--alt-text-color)  !important;
+  transition: color 300ms linear;
 }
 
 /* GENERAL */
