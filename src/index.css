@@ -36,7 +36,7 @@ ul:not(.browser-default) {
   color: var(--main-text-color);
 }
 
-/* NAVBAR */
+/* SIDENAV */
 
 #sidenav-overlay {
   background-color: rgba(0,0,0,0);
