@@ -5,7 +5,7 @@ export const projectArray =  [
     link: "Github",
     href2: "https://weatheru.chrismalloy.net/",
     link2: "Live Site",
-    description: "A fun web app that gives recommendations based on current weather. Built with React/Redux and leverages the open weather map API to fetch weather data.",
+    description: "A fun web app that gives recommendations based on current weather.",
     image: "images/weatherU-ss.png",
   },
   {
@@ -21,21 +21,21 @@ export const projectArray =  [
     link: "Github",
     href2: "https://bittymotors.chrismalloy.net/",
     link2: "Live Site",
-    description: "An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server.",
+    description: "An e-commerce site built with React/Redux and Node.js",
     image: "images/bitty-motors-ss.png"
   },
   {
     title: "City Runner",
     href: "https://github.com/caseyezimmerman/cityRunner",
     link: "Github",
-    description: "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps",
+    description: "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance.",
     image: "images/city-runner-ss.png"
   },
   {
     title: "Tronjack",
     href: "https://github.com/chris-malloy/tronjack",
     link: "Github",
-    description: "A twist on an old card game. Built with Bootstrap and jQuery",
+    description: "A twist on an old card game. Built with Bootstrap and jQuery.",
     image: "images/tronjack-ss.png"
   }
 ];

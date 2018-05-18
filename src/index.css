@@ -36,6 +36,17 @@ ul:not(.browser-default) {
   color: var(--main-text-color);
 }
 
+/* NAVBAR */
+
+#sidenav-overlay {
+  background-color: rgba(0,0,0,0);
+  z-index: 996;
+}
+
+#nav-mobile > li a {
+  font-size: 22px;
+}
+
 /* COLORS */
 
 a h5, li a {
@@ -127,6 +138,17 @@ nav {
   line-height: 40px;
   font-size: 16px;
 }
+
+/* MOBILE */
+
+@media (max-width: 375) {
+    .page-footer{
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+
 
 
 
