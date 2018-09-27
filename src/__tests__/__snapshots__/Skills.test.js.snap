@@ -19,28 +19,45 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h5>
-          What I Know
+          DevOps Skills
 </h5>,
         <Carousel
           className="carousel"
           images={
                     Array [
-                              "images/react-logo.png",
+                              "images/aws-logo.png",
+                              "images/docker-logo.png",
+                              "images/terraform-logo.jpg",
+                              "images/concourse-logo.png",
+                              "images/vault-logo.png",
+                              "images/gcp-logo.png",
+                            ]
+          }
+/>,
+        <h5>
+          Development SKills
+</h5>,
+        <Carousel
+          className="carousel"
+          images={
+                    Array [
                               "images/python-logo.png",
                               "images/django-logo.png",
+                              "images/postgresql-logo.jpg",
+                              "images/mysql-logo.png",
+                              "images/react-logo.png",
                               "images/javascript-logo.png",
+                              "images/jquery-logo.png",
                               "images/backbone-logo.png",
                               "images/jest-logo.png",
-                              "images/git-logo.png",
                               "images/node-logo.png",
-                              "images/mysql-logo.png",
                               "images/express-logo.png",
-                              "images/jquery-logo.png",
                               "images/sass-logo.png",
                               "images/materialize-logo.png",
                               "images/bootstrap-logo.png",
                               "images/html-logo.png",
                               "images/css-logo.png",
+                              "images/git-logo.png",
                             ]
           }
 />,
@@ -50,15 +67,9 @@ ShallowWrapper {
         <Carousel
           images={
                     Array [
-                              "images/gcp-logo.png",
-                              "images/docker-logo.png",
-                              "images/mocha-logo.svg",
-                              "images/chai-logo.png",
                               "images/bitcoin-logo.png",
                               "images/java-logo.png",
-                              "images/aws-logo.png",
                               "images/apache-logo.png",
-                              "images/postgresql-logo.jpg",
                             ]
           }
 />,
@@ -71,10 +82,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "What I Know",
+          "children": "DevOps Skills",
         },
         "ref": null,
-        "rendered": "What I Know",
+        "rendered": "DevOps Skills",
         "type": "h5",
       },
       Object {
@@ -84,22 +95,53 @@ ShallowWrapper {
         "props": Object {
           "className": "carousel",
           "images": Array [
-            "images/react-logo.png",
+            "images/aws-logo.png",
+            "images/docker-logo.png",
+            "images/terraform-logo.jpg",
+            "images/concourse-logo.png",
+            "images/vault-logo.png",
+            "images/gcp-logo.png",
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Development SKills",
+        },
+        "ref": null,
+        "rendered": "Development SKills",
+        "type": "h5",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "carousel",
+          "images": Array [
             "images/python-logo.png",
             "images/django-logo.png",
+            "images/postgresql-logo.jpg",
+            "images/mysql-logo.png",
+            "images/react-logo.png",
             "images/javascript-logo.png",
+            "images/jquery-logo.png",
             "images/backbone-logo.png",
             "images/jest-logo.png",
-            "images/git-logo.png",
             "images/node-logo.png",
-            "images/mysql-logo.png",
             "images/express-logo.png",
-            "images/jquery-logo.png",
             "images/sass-logo.png",
             "images/materialize-logo.png",
             "images/bootstrap-logo.png",
             "images/html-logo.png",
             "images/css-logo.png",
+            "images/git-logo.png",
           ],
         },
         "ref": null,
@@ -123,15 +165,9 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "images": Array [
-            "images/gcp-logo.png",
-            "images/docker-logo.png",
-            "images/mocha-logo.svg",
-            "images/chai-logo.png",
             "images/bitcoin-logo.png",
             "images/java-logo.png",
-            "images/aws-logo.png",
             "images/apache-logo.png",
-            "images/postgresql-logo.jpg",
           ],
         },
         "ref": null,
@@ -149,28 +185,45 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h5>
-            What I Know
+            DevOps Skills
 </h5>,
           <Carousel
             className="carousel"
             images={
                         Array [
-                                    "images/react-logo.png",
+                                    "images/aws-logo.png",
+                                    "images/docker-logo.png",
+                                    "images/terraform-logo.jpg",
+                                    "images/concourse-logo.png",
+                                    "images/vault-logo.png",
+                                    "images/gcp-logo.png",
+                                  ]
+            }
+/>,
+          <h5>
+            Development SKills
+</h5>,
+          <Carousel
+            className="carousel"
+            images={
+                        Array [
                                     "images/python-logo.png",
                                     "images/django-logo.png",
+                                    "images/postgresql-logo.jpg",
+                                    "images/mysql-logo.png",
+                                    "images/react-logo.png",
                                     "images/javascript-logo.png",
+                                    "images/jquery-logo.png",
                                     "images/backbone-logo.png",
                                     "images/jest-logo.png",
-                                    "images/git-logo.png",
                                     "images/node-logo.png",
-                                    "images/mysql-logo.png",
                                     "images/express-logo.png",
-                                    "images/jquery-logo.png",
                                     "images/sass-logo.png",
                                     "images/materialize-logo.png",
                                     "images/bootstrap-logo.png",
                                     "images/html-logo.png",
                                     "images/css-logo.png",
+                                    "images/git-logo.png",
                                   ]
             }
 />,
@@ -180,15 +233,9 @@ ShallowWrapper {
           <Carousel
             images={
                         Array [
-                                    "images/gcp-logo.png",
-                                    "images/docker-logo.png",
-                                    "images/mocha-logo.svg",
-                                    "images/chai-logo.png",
                                     "images/bitcoin-logo.png",
                                     "images/java-logo.png",
-                                    "images/aws-logo.png",
                                     "images/apache-logo.png",
-                                    "images/postgresql-logo.jpg",
                                   ]
             }
 />,
@@ -201,10 +248,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "What I Know",
+            "children": "DevOps Skills",
           },
           "ref": null,
-          "rendered": "What I Know",
+          "rendered": "DevOps Skills",
           "type": "h5",
         },
         Object {
@@ -214,22 +261,53 @@ ShallowWrapper {
           "props": Object {
             "className": "carousel",
             "images": Array [
-              "images/react-logo.png",
+              "images/aws-logo.png",
+              "images/docker-logo.png",
+              "images/terraform-logo.jpg",
+              "images/concourse-logo.png",
+              "images/vault-logo.png",
+              "images/gcp-logo.png",
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Development SKills",
+          },
+          "ref": null,
+          "rendered": "Development SKills",
+          "type": "h5",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "carousel",
+            "images": Array [
               "images/python-logo.png",
               "images/django-logo.png",
+              "images/postgresql-logo.jpg",
+              "images/mysql-logo.png",
+              "images/react-logo.png",
               "images/javascript-logo.png",
+              "images/jquery-logo.png",
               "images/backbone-logo.png",
               "images/jest-logo.png",
-              "images/git-logo.png",
               "images/node-logo.png",
-              "images/mysql-logo.png",
               "images/express-logo.png",
-              "images/jquery-logo.png",
               "images/sass-logo.png",
               "images/materialize-logo.png",
               "images/bootstrap-logo.png",
               "images/html-logo.png",
               "images/css-logo.png",
+              "images/git-logo.png",
             ],
           },
           "ref": null,
@@ -253,15 +331,9 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "images": Array [
-              "images/gcp-logo.png",
-              "images/docker-logo.png",
-              "images/mocha-logo.svg",
-              "images/chai-logo.png",
               "images/bitcoin-logo.png",
               "images/java-logo.png",
-              "images/aws-logo.png",
               "images/apache-logo.png",
-              "images/postgresql-logo.jpg",
             ],
           },
           "ref": null,

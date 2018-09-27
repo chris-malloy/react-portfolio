@@ -41,34 +41,38 @@ export const projectArray =  [
 ];
 
 export const skillsImages = {
-  know: [
-    'images/react-logo.png',
+  devOps: [
+    'images/aws-logo.png',
+    'images/docker-logo.png',
+    'images/terraform-logo.jpg',
+    'images/concourse-logo.png',
+    'images/vault-logo.png',
+    'images/gcp-logo.png',
+  ],
+  development: [
     'images/python-logo.png',
     'images/django-logo.png',
+    'images/postgresql-logo.jpg',
+    'images/mysql-logo.png',
+    'images/react-logo.png',
+    
     'images/javascript-logo.png',
+    'images/jquery-logo.png',
     'images/backbone-logo.png',
     'images/jest-logo.png',
-    'images/git-logo.png',
     'images/node-logo.png',
-    'images/mysql-logo.png',
     'images/express-logo.png',
-    'images/jquery-logo.png',
     'images/sass-logo.png',
     'images/materialize-logo.png',
     'images/bootstrap-logo.png',
     'images/html-logo.png',
     'images/css-logo.png',
+    'images/git-logo.png',
   ],
   learning: [
-    'images/gcp-logo.png',
-    'images/docker-logo.png',
-    'images/mocha-logo.svg',
-    'images/chai-logo.png',
     'images/bitcoin-logo.png',
     'images/java-logo.png',
-    'images/aws-logo.png',
     'images/apache-logo.png',
-    'images/postgresql-logo.jpg'
   ]
 };
 

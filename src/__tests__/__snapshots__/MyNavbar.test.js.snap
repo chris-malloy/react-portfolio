@@ -48,7 +48,10 @@ ShallowWrapper {
       "className": "blue darken-4",
       "fixed": true,
       "href": "/",
-      "options": Object {},
+      "options": Object {
+        "closeOnClick": true,
+        "draggable": true,
+      },
       "right": true,
     },
     "ref": null,
@@ -153,7 +156,10 @@ ShallowWrapper {
         "className": "blue darken-4",
         "fixed": true,
         "href": "/",
-        "options": Object {},
+        "options": Object {
+          "closeOnClick": true,
+          "draggable": true,
+        },
         "right": true,
       },
       "ref": null,

@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Project
-          description="A fun web app that gives recommendations based on current weather. Built with React/Redux and leverages the open weather map API to fetch weather data."
+          description="A fun web app that gives recommendations based on current weather."
           href="https://github.com/chris-malloy/weatherU"
           href2="https://weatheru.chrismalloy.net/"
           image="images/weatherU-ss.png"
@@ -37,7 +37,7 @@ ShallowWrapper {
           title="Trackr"
 />,
         <Project
-          description="An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server."
+          description="An e-commerce site built with React/Redux and Node.js"
           href="https://github.com/chris-malloy/ecommerce"
           href2="https://bittymotors.chrismalloy.net/"
           image="images/bitty-motors-ss.png"
@@ -46,7 +46,7 @@ ShallowWrapper {
           title="Bitty Motors"
 />,
         <Project
-          description="This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps"
+          description="This web app utilizes Google Maps API to generate running paths based on their current location and desired distance."
           href="https://github.com/caseyezimmerman/cityRunner"
           href2={undefined}
           image="images/city-runner-ss.png"
@@ -55,7 +55,7 @@ ShallowWrapper {
           title="City Runner"
 />,
         <Project
-          description="A twist on an old card game. Built with Bootstrap and jQuery"
+          description="A twist on an old card game. Built with Bootstrap and jQuery."
           href="https://github.com/chris-malloy/tronjack"
           href2={undefined}
           image="images/tronjack-ss.png"
@@ -72,7 +72,7 @@ ShallowWrapper {
         "key": "0",
         "nodeType": "function",
         "props": Object {
-          "description": "A fun web app that gives recommendations based on current weather. Built with React/Redux and leverages the open weather map API to fetch weather data.",
+          "description": "A fun web app that gives recommendations based on current weather.",
           "href": "https://github.com/chris-malloy/weatherU",
           "href2": "https://weatheru.chrismalloy.net/",
           "image": "images/weatherU-ss.png",
@@ -106,7 +106,7 @@ ShallowWrapper {
         "key": "2",
         "nodeType": "function",
         "props": Object {
-          "description": "An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server.",
+          "description": "An e-commerce site built with React/Redux and Node.js",
           "href": "https://github.com/chris-malloy/ecommerce",
           "href2": "https://bittymotors.chrismalloy.net/",
           "image": "images/bitty-motors-ss.png",
@@ -123,7 +123,7 @@ ShallowWrapper {
         "key": "3",
         "nodeType": "function",
         "props": Object {
-          "description": "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps",
+          "description": "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance.",
           "href": "https://github.com/caseyezimmerman/cityRunner",
           "href2": undefined,
           "image": "images/city-runner-ss.png",
@@ -140,7 +140,7 @@ ShallowWrapper {
         "key": "4",
         "nodeType": "function",
         "props": Object {
-          "description": "A twist on an old card game. Built with Bootstrap and jQuery",
+          "description": "A twist on an old card game. Built with Bootstrap and jQuery.",
           "href": "https://github.com/chris-malloy/tronjack",
           "href2": undefined,
           "image": "images/tronjack-ss.png",
@@ -163,7 +163,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Project
-            description="A fun web app that gives recommendations based on current weather. Built with React/Redux and leverages the open weather map API to fetch weather data."
+            description="A fun web app that gives recommendations based on current weather."
             href="https://github.com/chris-malloy/weatherU"
             href2="https://weatheru.chrismalloy.net/"
             image="images/weatherU-ss.png"
@@ -181,7 +181,7 @@ ShallowWrapper {
             title="Trackr"
 />,
           <Project
-            description="An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server."
+            description="An e-commerce site built with React/Redux and Node.js"
             href="https://github.com/chris-malloy/ecommerce"
             href2="https://bittymotors.chrismalloy.net/"
             image="images/bitty-motors-ss.png"
@@ -190,7 +190,7 @@ ShallowWrapper {
             title="Bitty Motors"
 />,
           <Project
-            description="This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps"
+            description="This web app utilizes Google Maps API to generate running paths based on their current location and desired distance."
             href="https://github.com/caseyezimmerman/cityRunner"
             href2={undefined}
             image="images/city-runner-ss.png"
@@ -199,7 +199,7 @@ ShallowWrapper {
             title="City Runner"
 />,
           <Project
-            description="A twist on an old card game. Built with Bootstrap and jQuery"
+            description="A twist on an old card game. Built with Bootstrap and jQuery."
             href="https://github.com/chris-malloy/tronjack"
             href2={undefined}
             image="images/tronjack-ss.png"
@@ -216,7 +216,7 @@ ShallowWrapper {
           "key": "0",
           "nodeType": "function",
           "props": Object {
-            "description": "A fun web app that gives recommendations based on current weather. Built with React/Redux and leverages the open weather map API to fetch weather data.",
+            "description": "A fun web app that gives recommendations based on current weather.",
             "href": "https://github.com/chris-malloy/weatherU",
             "href2": "https://weatheru.chrismalloy.net/",
             "image": "images/weatherU-ss.png",
@@ -250,7 +250,7 @@ ShallowWrapper {
           "key": "2",
           "nodeType": "function",
           "props": Object {
-            "description": "An e-commerce site built with React and Redux and utilizes a Node.js backend to communicate with a MySQL server.",
+            "description": "An e-commerce site built with React/Redux and Node.js",
             "href": "https://github.com/chris-malloy/ecommerce",
             "href2": "https://bittymotors.chrismalloy.net/",
             "image": "images/bitty-motors-ss.png",
@@ -267,7 +267,7 @@ ShallowWrapper {
           "key": "3",
           "nodeType": "function",
           "props": Object {
-            "description": "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance. Upon form submission the user will see their created path as well as directions pulled from Google Maps",
+            "description": "This web app utilizes Google Maps API to generate running paths based on their current location and desired distance.",
             "href": "https://github.com/caseyezimmerman/cityRunner",
             "href2": undefined,
             "image": "images/city-runner-ss.png",
@@ -284,7 +284,7 @@ ShallowWrapper {
           "key": "4",
           "nodeType": "function",
           "props": Object {
-            "description": "A twist on an old card game. Built with Bootstrap and jQuery",
+            "description": "A twist on an old card game. Built with Bootstrap and jQuery.",
             "href": "https://github.com/chris-malloy/tronjack",
             "href2": undefined,
             "image": "images/tronjack-ss.png",
